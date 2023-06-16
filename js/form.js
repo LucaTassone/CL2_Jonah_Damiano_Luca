@@ -11,6 +11,11 @@ const messageField = document.getElementById("comment");
 emailField.addEventListener("keyup", () => {
   onChangeEmailField();
 });
+
+nameField.addEventListener("keyup", () => {
+  onChangeNameField();
+});
+
 submitButton.addEventListener("click", async (event) => {
   event.preventDefault();
   onClickSubmit();
